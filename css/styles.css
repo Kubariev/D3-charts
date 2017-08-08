@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+svg {
+    display: block;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+#chartOneOption {
+    text-align: center;
+}

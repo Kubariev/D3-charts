@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3K</title>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://bost.ocks.org/mike/fisheye/fisheye.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
+</head>
+<body class="yui-skin-sam">
+    <h2>Mocked chart</h2>
+    <div id="chartOne">
+        <svg></svg>
+    </div>
+    <div id="chartOneOption">
+        <input name="updateButton" type="button" onclick="updateData(dataChartOne, 'key', 'value', 'valueTwo' ,'#chartOne')" id="changeData" />
+        <input name="otherChart" type="button" value="Other Chart" onclick="changeGraph()" />
+        <input name="colorOne" type="button" value="Pick" style="background-color:#333;" onclick="pickColor('#333')" />
+        <input name="otherTwo" type="button" value="Pick" style="background-color:#13f3dd;" onclick="pickColor('#13f3dd')" />
+        <input name="otherTwo" type="button" value="Pick" style="background-color:#31a2f1;" onclick="pickColor('#31a2f1')" />
+        <input name="otherTwo" type="button" value="Pick" style="background-color:#75df99;" onclick="pickColor('#75df99')" />
+        <input name="otherTwo" type="button" value="Pick" style="background-color:#f11ecb;" onclick="pickColor('#f11ecb')" />
+        <input name="otherTwo" type="button" value="Pick" style="background-color:#df7d2b;" onclick="pickColor('#df7d2b')" />
+        <input name="otherTwo" type="button" value="Pick" style="background-color:#0019f1;" onclick="pickColor('#0019f1')" />
+        <input name="otherTwo" type="button" value="Pick" style="background-color:#3cdf00;" onclick="pickColor('#3cdf00')" />
+    </div>
+    <div id="colorPicker"></div>
+    <body><div id="chartTwo"></div></body>
+    <script src="js/main.js"></script>
+</body>
+</html>
